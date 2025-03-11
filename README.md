@@ -19,6 +19,9 @@ Flexi Treeview is a customizable and flexible Angular component for displaying h
 npm install flexi-treeview
 ```
 
+## Live Demo
+[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://stackblitz.com/edit/stackblitz-starters-cezmebmc?file=src%2Fmain.ts)
+
 ## Usage
 
 ### Import the Module
