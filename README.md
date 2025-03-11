@@ -1,59 +1,108 @@
-# FlexiTreeview
+# Flexi Treeview
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
+Flexi Treeview is a customizable and flexible Angular component for displaying hierarchical data in a tree structure. It supports selection, expansion, search, and actions like edit, delete, and refresh.
 
-## Development server
+## Features
 
-To start a local development server, run:
+- 🛠 **Dynamic Tree Structure** - Supports parent-child relationships with nested levels.
+- ✅ **Checkbox Selection** - Allows selecting individual nodes and handling indeterminate states.
+- 🔍 **Search Functionality** - Quickly find nodes within the tree.
+- 📏 **Customizable UI** - Adjust size, colors, and styling.
+- 🎨 **Dark & Light Mode Support** - Adapts to the selected theme.
+- 🔄 **Expand/Collapse All** - Expand or collapse all nodes easily.
+- 🖱 **Action Buttons** - Edit, delete, and detail buttons for nodes.
+- 🔄 **Live Refresh** - Refresh the tree dynamically.
 
-```bash
-ng serve
+## Installation
+
+```sh
+npm install flexi-treeview
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Usage
 
-## Code scaffolding
+### Import the Module
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+```ts
+import { FlexiTreeviewComponent } from 'flexi-treeview';
 
-```bash
-ng generate component component-name
+@Component({
+  selector: 'app-root',
+  imports: [FlexiTreeviewComponent],
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css'
+})
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Add to Template
 
-```bash
-ng generate --help
+```html
+<flexi-treeview
+  [data]="treeData"
+  [treeviewTitle]="'Categories'"
+  [themeClass]="'light'"
+  [showCheckbox]="true"
+  [showSearch]="true"
+  (onSelected)="handleSelectedNodes($event)"
+  (onEdit)="handleEditNode($event)"
+  (onDelete)="handleDeleteNode($event)"
+  (onRefresh)="handleRefresh()">
+</flexi-treeview>
 ```
 
-## Building
+### Define Tree Data
 
-To build the project run:
-
-```bash
-ng build
+```ts
+treeData = [
+  {
+    id: '1',
+    name: 'Parent Node',
+    code: 'P1',
+    children: [
+      { id: '2', name: 'Child Node 1', code: 'C1' },
+      { id: '3', name: 'Child Node 2', code: 'C2' }
+    ]
+  }
+];
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+```ts
+handleSelectedNodes(selectedNodes: FlexiTreeNode[]) {
+  console.log('Selected Nodes:', selectedNodes);
+}
 
-## Running unit tests
+handleEditNode(node: FlexiTreeNode) {
+  console.log('Edit Node:', node);
+}
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+handleDeleteNode(node: FlexiTreeNode) {
+  console.log('Delete Node:', node);
+}
 
-```bash
-ng test
+handleRefresh() {
+  console.log('Treeview refreshed');
+}
 ```
 
-## Running end-to-end tests
+## API
 
-For end-to-end (e2e) testing, run:
+| Input Property     | Type        | Default | Description |
+|--------------------|------------|---------|-------------|
+| `data`            | `FlexiTreeNode[]` | `[]`  | The tree node data array. |
+| `treeviewTitle`   | `string`    | `''`   | Title of the treeview. |
+| `showCheckbox`    | `boolean`   | `false` | Show checkboxes for node selection. |
+| `showSearch`      | `boolean`   | `true`  | Enable search functionality. |
+| `showActions`     | `boolean`   | `true`  | Show action buttons for nodes. |
 
-```bash
-ng e2e
-```
+## Events
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+| Event       | Output Type          | Description |
+|------------|--------------------|-------------|
+| `onSelected` | `FlexiTreeNode[]` | Emits when nodes are selected. |
+| `onEdit`     | `FlexiTreeNode`   | Emits when a node is edited. |
+| `onDelete`   | `FlexiTreeNode`   | Emits when a node is deleted. |
+| `onRefresh`  | `void`            | Emits when the refresh button is clicked. |
 
-## Additional Resources
+## License
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+MIT License.
