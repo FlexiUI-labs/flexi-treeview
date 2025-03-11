@@ -2,6 +2,10 @@
 
 Flexi Treeview is a customizable and flexible Angular component for displaying hierarchical data in a tree structure. It supports selection, expansion, search, and actions like edit, delete, and refresh.
 
+## Live Demo
+
+[![Edit in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://stackblitz.com/edit/stackblitz-starters-cezmebmc?file=src%2Fmain.ts)
+
 ## Features
 
 - 🛠 **Dynamic Tree Structure** - Supports parent-child relationships with nested levels.
@@ -18,9 +22,6 @@ Flexi Treeview is a customizable and flexible Angular component for displaying h
 ```sh
 npm install flexi-treeview
 ```
-
-## Live Demo
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://stackblitz.com/edit/stackblitz-starters-cezmebmc?file=src%2Fmain.ts)
 
 ## Usage
 
