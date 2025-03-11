@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewEncapsulation, ChangeDetectionStrategy, signal, AfterViewInit, OnChanges, SimpleChanges, input, output } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation, ChangeDetectionStrategy, signal, AfterViewInit, OnChanges, SimpleChanges, input, output, computed } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { FlexiButtonComponent, FlexiButtonSizeType } from 'flexi-button';
@@ -20,6 +20,7 @@ export class FlexiTreeviewComponent implements AfterViewInit, OnChanges {
   readonly showCheckbox = input<boolean>(false);
   readonly showEditButton = input<boolean>(true);
   readonly showDeleteButton = input<boolean>(true);
+  readonly showDetailButton = input<boolean>(false);
   readonly showSearch = input<boolean>(true);
   readonly showActions = input<boolean>(true);
   readonly width = input<string>('100%');
@@ -31,18 +32,30 @@ export class FlexiTreeviewComponent implements AfterViewInit, OnChanges {
   readonly themeClass = input<"light" | "dark">('light');
   readonly loading = input<boolean>(false);
   readonly expend = input<boolean>(true);
-  readonly showDetailButton = input<boolean>(false);
   readonly detailRouterLink = input<string>("");
+  readonly language = input<"en" | "tr">("en");
 
   readonly onSelected = output<FlexiTreeNode[]>();
   readonly onEdit = output<FlexiTreeNode>();
   readonly onDelete = output<FlexiTreeNode>();
   readonly onRefresh = output();
 
-  searchTerm = signal<string>('');
-  filteredTreeData = signal<FlexiTreeNode[]>([]);
-  foundItemsCount = signal<number>(0);
-  selectedNodes = signal<FlexiTreeNode[]>([]);
+  readonly searchTerm = signal<string>('');
+  readonly filteredTreeData = signal<FlexiTreeNode[]>([]);
+  readonly foundItemsCount = signal<number>(0);
+  readonly selectedNodes = signal<FlexiTreeNode[]>([]);
+
+  readonly selectAllText = computed(() => this.language() === "en" ? "Select All" : "Tümünü Seç");
+  readonly deselectAllText = computed(() => this.language() === "en" ? "Deselect All" : "Tümünün Seçimini Kaldır");
+  readonly collapseAllText = computed(() => this.language() === "en" ? "Collapse All" : "Tümünü Daralt");
+  readonly expandAllText = computed(() => this.language() === "en" ? "Expand All" : "Tümünü Genişlet");
+  readonly refreshText = computed(() => this.language() === "en" ? "Refresh" : "Yenile");
+  readonly searchResultText = computed(() => this.language() === "en" ? "result found" : "sonuç bulundu");
+  readonly detailText = computed(() => this.language() === "en" ? "Detail" : "Detay");
+  readonly updateText = computed(() => this.language() === "en" ? "Edit" : "Güncelle");
+  readonly deleteText = computed(() => this.language() === "en" ? "Delete" : "Sil");
+  readonly searchText = computed(() => this.language() === "en" ? "Search..." : "Ara...");
+
 
   ngAfterViewInit(): void {
     this.filteredTreeData.set(this.data());

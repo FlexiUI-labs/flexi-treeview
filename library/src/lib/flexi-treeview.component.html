@@ -8,15 +8,15 @@
         <ng-content></ng-content>
         @if(showCheckbox()){
           <flexi-button (click)="selectAll()" [btnSize]="btnSize()" btnIcon="check_box" btnColor="dark" flexiTooltip="left"
-            title="Tümünü Seç" />
+            [title]="selectAllText()" />
           <flexi-button (click)="deselectAll()" [btnSize]="btnSize()" btnIcon="check_box_outline_blank" btnColor="dark" flexiTooltip="left"
-            title="Tümünün Seçimini Kaldır" />
+            [title]="deselectAllText()" />
         }
         <flexi-button (click)="collapseAll()" [btnSize]="btnSize()" btnIcon="unfold_less" btnColor="dark" flexiTooltip="left"
-          title="Tümünü Daralt" />
+          [title]="collapseAllText()" />
         <flexi-button (click)="expandAll()" [btnSize]="btnSize()" btnIcon="unfold_more" btnColor="dark" flexiTooltip="left"
-          title="Tümünü Genişlet" />
-        <flexi-button (click)="refresh()" [btnSize]="btnSize()" btnIcon="refresh" btnColor="dark" flexiTooltip="left" title="Yenile" />
+          [title]="expandAllText()" />
+        <flexi-button (click)="refresh()" [btnSize]="btnSize()" btnIcon="refresh" btnColor="dark" flexiTooltip="left" [title]="refreshText()" />
       </div>
   </div>
   }
@@ -25,14 +25,14 @@
   <div class="flexi-treeview-search-container">
     <div class="flexi-treeview-search-input-container">
       <input class="flexi-treeview-search-input" type="search" [(ngModel)]="searchTerm" (input)="onSearch()"
-        placeholder="Ara...">
+        [placeholder]="searchText()">
       <span class="material-symbols-outlined flexi-tooltip-search-icon">
         search
       </span>
     </div>
     @if(searchTerm().trim() !== ''){
       <div class="flexi-treeview-search-results">
-        {{ foundItemsCount() }} sonuç bulundu
+        {{ foundItemsCount() }} {{searchResultText()}}
       </div>
     }
 
@@ -88,23 +88,27 @@
               <div class="flexi-treeview-node-name">
                 {{ node.name }}
               </div>
-              <div class="flexi-treeview-node-description" *ngIf="node.description">{{ node.description }}</div>
+              @if(node.description){
+                <div class="flexi-treeview-node-description">{{ node.description }}</div>
+              }
             </div>
             <div class="flexi-treeview-node-actions">
               @if(showDetailButton() && !node.isMain){
-                <flexi-button btnIcon="zoom_in" [btnSize]="btnSize()" btnColor="primary" flexiTooltip="left" title="Detay" [routerLink]="detailRouterLink() + '/' + node.id" />
+                <flexi-button btnIcon="zoom_in" [btnSize]="btnSize()" btnColor="primary" flexiTooltip="left" [title]="detailText()" [routerLink]="detailRouterLink() + '/' + node.id" />
               }
               @if(showEditButton() && !node.isMain){
-              <flexi-button btnIcon="edit" [btnSize]="btnSize()" btnColor="warning" flexiTooltip="left" title="Güncelle" (click)="onEditClick(node, $event)" />
+              <flexi-button btnIcon="edit" [btnSize]="btnSize()" btnColor="warning" flexiTooltip="left" [title]="updateText()" (click)="onEditClick(node, $event)" />
               }
               @if(showDeleteButton() && !node.isMain){
-              <flexi-button btnIcon="delete" [btnSize]="btnSize()" btnColor="danger" flexiTooltip="left" title="Sil" (click)="onDeleteClick(node, $event)" />
+              <flexi-button btnIcon="delete" [btnSize]="btnSize()" btnColor="danger" flexiTooltip="left" [title]="deleteText()" (click)="onDeleteClick(node, $event)" />
               }
             </div>
           </div>
-          <ul *ngIf="node.expanded && node.children && node.children.length">
-            <ng-container *ngTemplateOutlet="treeTemplate; context: { nodes: node.children }"></ng-container>
-          </ul>
+          @if(node.expanded && node.children && node.children.length){
+            <ul>
+              <ng-container *ngTemplateOutlet="treeTemplate; context: { nodes: node.children }"></ng-container>
+            </ul>
+          }
         </li>
         }
       </ng-template>

@@ -38,32 +38,60 @@ import { FlexiTreeviewComponent } from 'flexi-treeview';
 
 ```html
 <flexi-treeview
-  [data]="treeData"
-  [treeviewTitle]="'Categories'"
-  [themeClass]="'light'"
-  [showCheckbox]="true"
-  [showSearch]="true"
-  (onSelected)="handleSelectedNodes($event)"
-  (onEdit)="handleEditNode($event)"
-  (onDelete)="handleDeleteNode($event)"
-  (onRefresh)="handleRefresh()">
+    [data]="treeData"
+    [treeviewTitle]="'Categories'"
+    [themeClass]="'light'"
+    [showCheckbox]="true"
+    [showSearch]="true"
+    [showDetailButton]="true"
+    (onSelected)="handleSelectedNodes($event)"
+    (onEdit)="handleEditNode($event)"
+    (onDelete)="handleDeleteNode($event)"
+    (onRefresh)="handleRefresh()"
+    detailRouterLink="/products">
 </flexi-treeview>
 ```
 
 ### Define Tree Data
 
 ```ts
-treeData = [
-  {
-    id: '1',
-    name: 'Parent Node',
-    code: 'P1',
-    children: [
-      { id: '2', name: 'Child Node 1', code: 'C1' },
-      { id: '3', name: 'Child Node 2', code: 'C2' }
-    ]
-  }
-];
+treeData: FlexiTreeNode[] = [
+    {
+      id: '1',
+      name: 'Parent Node',
+      code: 'P1',
+      isMain: true,
+      indeterminate: false,
+      selected: false,
+      expanded: true,
+      description: '',
+      originalData: null,
+      children: [
+        {
+          id: '2',
+          name: 'Child Node 1',
+          code: 'C1',
+          isMain: false,
+          indeterminate: false,
+          selected: false,
+          expanded: true,
+          description: '',
+          originalData: null
+        },
+        {
+          id: '3',
+          name: 'Child Node 2',
+          code: 'C2',
+          isMain: false,
+          indeterminate: false,
+          selected: false,
+          expanded: true,
+          description: '',
+          originalData: null
+        }
+      ]
+    }
+  ];
 ```
 
 ```ts
@@ -86,13 +114,28 @@ handleRefresh() {
 
 ## API
 
-| Input Property     | Type        | Default | Description |
-|--------------------|------------|---------|-------------|
-| `data`            | `FlexiTreeNode[]` | `[]`  | The tree node data array. |
-| `treeviewTitle`   | `string`    | `''`   | Title of the treeview. |
-| `showCheckbox`    | `boolean`   | `false` | Show checkboxes for node selection. |
-| `showSearch`      | `boolean`   | `true`  | Enable search functionality. |
-| `showActions`     | `boolean`   | `true`  | Show action buttons for nodes. |
+| Input Property      | Type                | Default | Description |
+|---------------------|--------------------|---------|-------------|
+| `data`             | `FlexiTreeNode[]`   | `[]`  | The tree node data array. |
+| `treeviewTitle`    | `string`            | `''`   | Title of the treeview. |
+| `showCheckbox`     | `boolean`           | `false` | Show checkboxes for node selection. |
+| `showEditButton`   | `boolean`           | `true`  | Show the edit button for each node. |
+| `showDeleteButton` | `boolean`           | `true`  | Show the delete button for each node. |
+| `showDetailButton` | `boolean`           | `false` | Show the detail button for each node. |
+| `showSearch`       | `boolean`           | `true`  | Enable search functionality. |
+| `showActions`      | `boolean`           | `true`  | Show action buttons for nodes. |
+| `width`           | `string`            | `'100%'` | Width of the treeview component. |
+| `height`          | `string`            | `'100%'` | Height of the treeview component. |
+| `fontSize`        | `string`            | `'13px'` | Font size of tree nodes. |
+| `btnSize`         | `FlexiButtonSizeType` | `'small'` | Size of action buttons. |
+| `checkboxSize`    | `string`            | `'1.4em'` | Size of checkboxes. |
+| `actionBtnPosition` | `'left' | 'right'` | `'right'` | Position of action buttons. |
+| `themeClass`      | `'light' | 'dark'`  | `'light'` | Theme of the treeview component. |
+| `loading`         | `boolean`           | `false` | Show loading indicator. |
+| `expend`         | `boolean`           | `true` | Expand all nodes initially. |
+| `detailRouterLink` | `string`           | `''` | Router link for detail view. |
+| `language`        | `'en' | 'tr'`       | `'en'` | Language setting for labels. |
+
 
 ## Events
 
