@@ -1,6 +1,6 @@
 {
   "name": "flexi-treeview",
-  "version": "20.0.0",
+  "version": "20.0.1",
   "description": "A lightweight, customizable Angular component for displaying hierarchical data in a tree structure.",
   "license": "MIT",
   "keywords": [

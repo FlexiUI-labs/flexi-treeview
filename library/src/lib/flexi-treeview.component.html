@@ -1,7 +1,7 @@
 <div class="flexi-treeview" [style.fontSize]="fontSize()" [attr.data-bs-theme]="themeClass()" [style.width]="width()">
   @if(showActions()){
     <div class="flexi-treeview-caption" [style.justify-content]="actionBtnPosition() === 'left' ? 'start' : 'space-between'">
-      <h2 style="margin:0;">
+      <h2 style="margin:0;" [ngClass]="titleClass()">
         {{treeviewTitle()}}
       </h2>
       <div class="flexi-treeview-actions-buttons">
@@ -54,7 +54,7 @@
       </ul>
 
       <ng-template #treeTemplate let-nodes="nodes">
-        @for(node of nodes; track node.id){
+        @for(node of nodes; track (node.id + '-' + $index)){
         <li class="flexi-treeview-node-item">
           <div class="flexi-treeview-node-container">
             <div class="flexi-treeview-node-content">
@@ -97,10 +97,10 @@
                 <flexi-button btnIcon="zoom_in" [btnSize]="btnSize()" btnColor="primary" flexiTooltip="left" [title]="detailText()" [routerLink]="detailRouterLink() + '/' + node.id" />
               }
               @if(showEditButton() && !node.isMain){
-              <flexi-button btnIcon="edit" [btnSize]="btnSize()" btnColor="warning" flexiTooltip="left" [title]="updateText()" (click)="onEditClick(node, $event)" />
+                <flexi-button btnIcon="edit" [btnSize]="btnSize()" btnColor="warning" flexiTooltip="left" [title]="updateText()" (click)="onEditClick(node, $event)" />
               }
               @if(showDeleteButton() && !node.isMain){
-              <flexi-button btnIcon="delete" [btnSize]="btnSize()" btnColor="danger" flexiTooltip="left" [title]="deleteText()" (click)="onDeleteClick(node, $event)" />
+                <flexi-button btnIcon="delete" [btnSize]="btnSize()" btnColor="danger" flexiTooltip="left" [title]="deleteText()" (click)="onDeleteClick(node, $event)" />
               }
             </div>
           </div>

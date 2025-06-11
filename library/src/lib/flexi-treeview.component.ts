@@ -17,6 +17,7 @@ import { RouterLink } from '@angular/router';
 export class FlexiTreeviewComponent implements AfterViewInit, OnChanges {
   readonly data = input<FlexiTreeNode[]>([]);
   readonly treeviewTitle = input<string>('');
+  readonly titleClass = input<string>("");
   readonly showCheckbox = input<boolean>(false);
   readonly showEditButton = input<boolean>(true);
   readonly showDeleteButton = input<boolean>(true);
@@ -228,7 +229,7 @@ filterNodes(nodes: FlexiTreeNode[], term: string): FlexiTreeNode[] {
         }
       });
     };
-    collectSelectedNodes(this.filteredTreeData());
+    collectSelectedNodes(this.data());
     this.selectedNodes.set(allSelectedNodes);
   }
 

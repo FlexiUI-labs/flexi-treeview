@@ -2,15 +2,15 @@
 
 [data-bs-theme="light"] {
   --flexi-treeview-background-color: white;
-  --flexi-treeview-scroll-background-color: #dee2e6;    
-  --flexi-treeview-text-color: #000;      
+  --flexi-treeview-scroll-background-color: #dee2e6;
+  --flexi-treeview-text-color: #000;
   --flexi-treeview-hover-background-color: #ebf5ff;
   --flexi-treeview-hover-text-color: #212529;
-  --flexi-treeview-border-color: #dee2e6;  
+  --flexi-treeview-border-color: #dee2e6;
 }
 
 [data-bs-theme="dark"] {
-  --flexi-treeview-background-color: #212529;  
+  --flexi-treeview-background-color: #212529;
   --flexi-treeview-scroll-background-color: #504e4e;
   --flexi-treeview-text-color: #fff;
   --flexi-treeview-hover-background-color: #504e4e;
@@ -18,8 +18,8 @@
   --flexi-treeview-border-color: #353232;
 }
 
-.flexi-treeview {  
-  padding: 10px;  
+.flexi-treeview {
+  padding: 10px;
   font-size: 13px;
   font-weight: 400;
   font-style: normal;
@@ -29,12 +29,12 @@
   border: 1px solid var(--flexi-treeview-border-color);
 }
 
-.flexi-treeview-divider{
+.flexi-treeview-divider {
   border-bottom: 1px solid var(--flexi-treeview-border-color);
   margin: 10px 0;
 }
 
-.flexi-treeview-container{
+.flexi-treeview-container {
   position: relative;
   padding-right: 20px;
   overflow: auto;
@@ -135,7 +135,7 @@ ul {
 }
 
 .flexi-treeview-caption {
-  display: flex;  
+  display: flex;
   gap: 10px;
   margin-top: 5px;
   margin-bottom: 10px;
@@ -145,10 +145,10 @@ ul {
   margin-left: 5px;
 }
 
-.flexi-treeview-actions-buttons{
+.flexi-treeview-actions-buttons {
   display: flex;
   align-items: center;
-  gap: 10px;  
+  gap: 10px;
 }
 
 .flexi-treeview-node-checkbox {
@@ -161,35 +161,37 @@ ul {
 
 .flexi-treeview-container-wrapper,
 .flexi-treeview-container {
-    scrollbar-width: thin; /* Firefox için */
-    scrollbar-color: var(--flexi-treeview-scroll-background-color) var(--flexi-treeview-background-color); /* Firefox için */
+  scrollbar-width: thin;
+  /* Firefox için */
+  scrollbar-color: var(--flexi-treeview-scroll-background-color) var(--flexi-treeview-background-color);
+  /* Firefox için */
 }
 
 .flexi-treeview-container-wrapper::-webkit-scrollbar,
 .flexi-treeview-container::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
+  width: 8px;
+  height: 8px;
 }
 
 .flexi-treeview-container-wrapper::-webkit-scrollbar-track,
 .flexi-treeview-container::-webkit-scrollbar-track {
-    background-color: var(--flexi-treeview-background-color);
+  background-color: var(--flexi-treeview-background-color);
 }
 
 .flexi-treeview-container-wrapper::-webkit-scrollbar-thumb,
 .flexi-treeview-container::-webkit-scrollbar-thumb {
-    background-color: var(--flexi-treeview-scroll-background-color);
-    border-radius: 16px;
+  background-color: var(--flexi-treeview-scroll-background-color);
+  border-radius: 16px;
 }
 
 .flexi-treeview-container-wrapper::-webkit-scrollbar-button,
 .flexi-treeview-container::-webkit-scrollbar-button {
-    display: none;
+  display: none;
 }
 
 .flexi-treeview-container-wrapper::-webkit-scrollbar-corner,
 .flexi-treeview-container::-webkit-scrollbar-corner {
-    background-color: var(--flexi-treeview-scroll-background-color);
+  background-color: var(--flexi-treeview-scroll-background-color);
 }
 
 .flexi-treeview-spinner-container {
@@ -230,20 +232,20 @@ ul {
 
 @keyframes flexi-treeview-spin-1 {
   0% {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 
   100% {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
 @keyframes flexi-treeview-spin-2 {
   0% {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 
   100% {
-      transform: rotate(-360deg);
+    transform: rotate(-360deg);
   }
 }

@@ -1,13 +1,11 @@
 <flexi-treeview
-      [data]="treeData"
-      [treeviewTitle]="'Categories'"
+      [data]="data()"
+      [treeviewTitle]="'Permissions'"
       [themeClass]="'light'"
       [showCheckbox]="true"
       [showSearch]="true"
       [showDetailButton]="true"
-      (onSelected)="handleSelectedNodes($event)"
-      (onEdit)="handleEditNode($event)"
-      (onDelete)="handleDeleteNode($event)"
-      (onRefresh)="handleRefresh()"
+      (onRefresh)="resource.reload()"
+      (onSelected)="selected($event)"
       detailRouterLink="/products">
 </flexi-treeview>

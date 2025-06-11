@@ -1,0 +1,2534 @@
+[
+    {
+        "id": "Muhasebe",
+        "name": "Muhasebe",
+        "code": "",
+        "isMain": true,
+        "indeterminate": false,
+        "expanded": true,
+        "selected": true,
+        "children": [
+            {
+                "id": "Hizmetler",
+                "name": "Hizmetler",
+                "code": "Hizmetler",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "05644ea0-f188-49ff-b261-fb5d075d0555",
+                        "name": "Detay",
+                        "code": "Hizmetler",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "05644ea0-f188-49ff-b261-fb5d075d0555",
+                            "applicationName": "Muhasebe",
+                            "code": "Hizmetler",
+                            "name": "Detay",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "5e348973-7828-4267-be02-8e01cd779b37",
+                        "name": "Ekle",
+                        "code": "Hizmetler",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "5e348973-7828-4267-be02-8e01cd779b37",
+                            "applicationName": "Muhasebe",
+                            "code": "Hizmetler",
+                            "name": "Ekle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "03936e52-36c1-46ab-9802-638bf6927615",
+                        "name": "Görüntüle",
+                        "code": "Hizmetler",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "03936e52-36c1-46ab-9802-638bf6927615",
+                            "applicationName": "Muhasebe",
+                            "code": "Hizmetler",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "974d2af7-b4eb-44fd-a3a7-c41f8eb2be94",
+                        "name": "Güncelle",
+                        "code": "Hizmetler",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "974d2af7-b4eb-44fd-a3a7-c41f8eb2be94",
+                            "applicationName": "Muhasebe",
+                            "code": "Hizmetler",
+                            "name": "Güncelle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "e00274f9-8a37-4eb0-8724-75bba02980ee",
+                        "name": "Sil",
+                        "code": "Hizmetler",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "e00274f9-8a37-4eb0-8724-75bba02980ee",
+                            "applicationName": "Muhasebe",
+                            "code": "Hizmetler",
+                            "name": "Sil",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "İrsaliyeler",
+                "name": "İrsaliyeler",
+                "code": "İrsaliyeler",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "1bf93b29-ccea-4731-8e11-fd59fbd6c7d3",
+                        "name": "Detay",
+                        "code": "İrsaliyeler",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "1bf93b29-ccea-4731-8e11-fd59fbd6c7d3",
+                            "applicationName": "Muhasebe",
+                            "code": "İrsaliyeler",
+                            "name": "Detay",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "2d9330fd-e259-4213-b1b9-66da7b29e30c",
+                        "name": "Ekle",
+                        "code": "İrsaliyeler",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "2d9330fd-e259-4213-b1b9-66da7b29e30c",
+                            "applicationName": "Muhasebe",
+                            "code": "İrsaliyeler",
+                            "name": "Ekle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "09d5612d-a230-43eb-b0fc-edfae9e4f5cf",
+                        "name": "Görüntüle",
+                        "code": "İrsaliyeler",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "09d5612d-a230-43eb-b0fc-edfae9e4f5cf",
+                            "applicationName": "Muhasebe",
+                            "code": "İrsaliyeler",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "34de9577-6750-48e9-bdc0-5bbb33303af0",
+                        "name": "Güncelle",
+                        "code": "İrsaliyeler",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "34de9577-6750-48e9-bdc0-5bbb33303af0",
+                            "applicationName": "Muhasebe",
+                            "code": "İrsaliyeler",
+                            "name": "Güncelle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "34309124-17eb-47da-92a3-ba61dafd0dc4",
+                        "name": "Sil",
+                        "code": "İrsaliyeler",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "34309124-17eb-47da-92a3-ba61dafd0dc4",
+                            "applicationName": "Muhasebe",
+                            "code": "İrsaliyeler",
+                            "name": "Sil",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Banka Hareketi",
+                "name": "Banka Hareketi",
+                "code": "Banka Hareketi",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "2455cf23-153e-422e-bdd3-760aab765dbb",
+                        "name": "Detay",
+                        "code": "Banka Hareketi",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "2455cf23-153e-422e-bdd3-760aab765dbb",
+                            "applicationName": "Muhasebe",
+                            "code": "Banka Hareketi",
+                            "name": "Detay",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "0E44A047-7011-4F4C-8F42-D48014C96081",
+                        "name": "Ekle",
+                        "code": "Banka Hareketi",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "0E44A047-7011-4F4C-8F42-D48014C96081",
+                            "applicationName": "Muhasebe",
+                            "code": "Banka Hareketi",
+                            "name": "Ekle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "4A023036-046C-4BC1-A46F-D21604165B59",
+                        "name": "Görüntüle",
+                        "code": "Banka Hareketi",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "4A023036-046C-4BC1-A46F-D21604165B59",
+                            "applicationName": "Muhasebe",
+                            "code": "Banka Hareketi",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "3602115B-9CA3-46B3-87A4-CC698A0B42D9",
+                        "name": "Güncelle",
+                        "code": "Banka Hareketi",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "3602115B-9CA3-46B3-87A4-CC698A0B42D9",
+                            "applicationName": "Muhasebe",
+                            "code": "Banka Hareketi",
+                            "name": "Güncelle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "26b5370e-2540-44cf-a894-eceea0d46e1f",
+                        "name": "Sil",
+                        "code": "Banka Hareketi",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "26b5370e-2540-44cf-a894-eceea0d46e1f",
+                            "applicationName": "Muhasebe",
+                            "code": "Banka Hareketi",
+                            "name": "Sil",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Plasiyerler",
+                "name": "Plasiyerler",
+                "code": "Plasiyerler",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "26a7d374-39ce-4f3e-94df-69261f69f2fb",
+                        "name": "Detay",
+                        "code": "Plasiyerler",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "26a7d374-39ce-4f3e-94df-69261f69f2fb",
+                            "applicationName": "Muhasebe",
+                            "code": "Plasiyerler",
+                            "name": "Detay",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "0941141e-b4f4-4f94-980e-d034c05937fb",
+                        "name": "Ekle",
+                        "code": "Plasiyerler",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "0941141e-b4f4-4f94-980e-d034c05937fb",
+                            "applicationName": "Muhasebe",
+                            "code": "Plasiyerler",
+                            "name": "Ekle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "865359b1-3c96-485e-a7b3-77e5fd21844d",
+                        "name": "Görüntüle",
+                        "code": "Plasiyerler",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "865359b1-3c96-485e-a7b3-77e5fd21844d",
+                            "applicationName": "Muhasebe",
+                            "code": "Plasiyerler",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "f4e20882-4c19-4b36-b535-6ffb6b37bda2",
+                        "name": "Güncelle",
+                        "code": "Plasiyerler",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "f4e20882-4c19-4b36-b535-6ffb6b37bda2",
+                            "applicationName": "Muhasebe",
+                            "code": "Plasiyerler",
+                            "name": "Güncelle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "a8b7d089-3df5-4c1f-8faa-c407f969b038",
+                        "name": "Sil",
+                        "code": "Plasiyerler",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "a8b7d089-3df5-4c1f-8faa-c407f969b038",
+                            "applicationName": "Muhasebe",
+                            "code": "Plasiyerler",
+                            "name": "Sil",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Cari",
+                "name": "Cari",
+                "code": "Cari",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "362e56a5-0cde-4936-a5f5-8ce5ac03efb1",
+                        "name": "Detay",
+                        "code": "Cari",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "362e56a5-0cde-4936-a5f5-8ce5ac03efb1",
+                            "applicationName": "Muhasebe",
+                            "code": "Cari",
+                            "name": "Detay",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "ff0d36c6-2951-44cb-8529-0d15708a4944",
+                        "name": "Ekle",
+                        "code": "Cari",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "ff0d36c6-2951-44cb-8529-0d15708a4944",
+                            "applicationName": "Muhasebe",
+                            "code": "Cari",
+                            "name": "Ekle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "6b706766-46a9-4ea6-8cf3-1acb289a06e6",
+                        "name": "Görüntüle",
+                        "code": "Cari",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "6b706766-46a9-4ea6-8cf3-1acb289a06e6",
+                            "applicationName": "Muhasebe",
+                            "code": "Cari",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "f3d3e184-6c45-4cd1-bfde-87f54bb04df9",
+                        "name": "Güncelle",
+                        "code": "Cari",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "f3d3e184-6c45-4cd1-bfde-87f54bb04df9",
+                            "applicationName": "Muhasebe",
+                            "code": "Cari",
+                            "name": "Güncelle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "5d548bd3-dd7f-4d00-8ae4-616208bf87fe",
+                        "name": "Sil",
+                        "code": "Cari",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "5d548bd3-dd7f-4d00-8ae4-616208bf87fe",
+                            "applicationName": "Muhasebe",
+                            "code": "Cari",
+                            "name": "Sil",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Banka",
+                "name": "Banka",
+                "code": "Banka",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "37953ed4-8509-491b-93a3-b2e700b822a3",
+                        "name": "Detay",
+                        "code": "Banka",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "37953ed4-8509-491b-93a3-b2e700b822a3",
+                            "applicationName": "Muhasebe",
+                            "code": "Banka",
+                            "name": "Detay",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "FF3286E0-C0DF-4540-9BD8-FE483F1C9A77",
+                        "name": "Ekle",
+                        "code": "Banka",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "FF3286E0-C0DF-4540-9BD8-FE483F1C9A77",
+                            "applicationName": "Muhasebe",
+                            "code": "Banka",
+                            "name": "Ekle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "F013EC8F-3B26-4E61-B61C-9F8CE0E4DEA1",
+                        "name": "Görüntüle",
+                        "code": "Banka",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "F013EC8F-3B26-4E61-B61C-9F8CE0E4DEA1",
+                            "applicationName": "Muhasebe",
+                            "code": "Banka",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "B47A9E0A-D6F7-4876-9FB3-849969858FE5",
+                        "name": "Güncelle",
+                        "code": "Banka",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "B47A9E0A-D6F7-4876-9FB3-849969858FE5",
+                            "applicationName": "Muhasebe",
+                            "code": "Banka",
+                            "name": "Güncelle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "4f3a2f93-0850-4e88-a7aa-734be61d6e7c",
+                        "name": "Sil",
+                        "code": "Banka",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "4f3a2f93-0850-4e88-a7aa-734be61d6e7c",
+                            "applicationName": "Muhasebe",
+                            "code": "Banka",
+                            "name": "Sil",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Cari Hareket",
+                "name": "Cari Hareket",
+                "code": "Cari Hareket",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "3cdc265a-2bf7-4d2a-979a-a145957f839d",
+                        "name": "Detay",
+                        "code": "Cari Hareket",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "3cdc265a-2bf7-4d2a-979a-a145957f839d",
+                            "applicationName": "Muhasebe",
+                            "code": "Cari Hareket",
+                            "name": "Detay",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "b4b12319-0b8d-4709-92ec-764cd16ce18a",
+                        "name": "Ekle",
+                        "code": "Cari Hareket",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "b4b12319-0b8d-4709-92ec-764cd16ce18a",
+                            "applicationName": "Muhasebe",
+                            "code": "Cari Hareket",
+                            "name": "Ekle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "66902444-ba56-4163-9626-a3ce5b435cd7",
+                        "name": "Görüntüle",
+                        "code": "Cari Hareket",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "66902444-ba56-4163-9626-a3ce5b435cd7",
+                            "applicationName": "Muhasebe",
+                            "code": "Cari Hareket",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "b042c1e8-ed42-41a0-8291-1c15762759a2",
+                        "name": "Güncelle",
+                        "code": "Cari Hareket",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "b042c1e8-ed42-41a0-8291-1c15762759a2",
+                            "applicationName": "Muhasebe",
+                            "code": "Cari Hareket",
+                            "name": "Güncelle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "df6cf5f1-803a-4e96-bc10-556e02b3c771",
+                        "name": "Sil",
+                        "code": "Cari Hareket",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "df6cf5f1-803a-4e96-bc10-556e02b3c771",
+                            "applicationName": "Muhasebe",
+                            "code": "Cari Hareket",
+                            "name": "Sil",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Kasa Hareketi",
+                "name": "Kasa Hareketi",
+                "code": "Kasa Hareketi",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "53ffd9e4-9a3c-401a-ad1d-b92503ac60c6",
+                        "name": "Detay",
+                        "code": "Kasa Hareketi",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "53ffd9e4-9a3c-401a-ad1d-b92503ac60c6",
+                            "applicationName": "Muhasebe",
+                            "code": "Kasa Hareketi",
+                            "name": "Detay",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "e12b8eb3-ba60-4369-8889-2bd67298ffe8",
+                        "name": "Ekle",
+                        "code": "Kasa Hareketi",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "e12b8eb3-ba60-4369-8889-2bd67298ffe8",
+                            "applicationName": "Muhasebe",
+                            "code": "Kasa Hareketi",
+                            "name": "Ekle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "cb0ba009-c483-491a-863c-b81ed6881990",
+                        "name": "Görüntüle",
+                        "code": "Kasa Hareketi",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "cb0ba009-c483-491a-863c-b81ed6881990",
+                            "applicationName": "Muhasebe",
+                            "code": "Kasa Hareketi",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "cb873fab-cb35-49ac-94d7-261bbb3aa078",
+                        "name": "Güncelle",
+                        "code": "Kasa Hareketi",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "cb873fab-cb35-49ac-94d7-261bbb3aa078",
+                            "applicationName": "Muhasebe",
+                            "code": "Kasa Hareketi",
+                            "name": "Güncelle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "1aa7e756-c0d4-454e-9b9e-56dd8a5bbe60",
+                        "name": "Sil",
+                        "code": "Kasa Hareketi",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "1aa7e756-c0d4-454e-9b9e-56dd8a5bbe60",
+                            "applicationName": "Muhasebe",
+                            "code": "Kasa Hareketi",
+                            "name": "Sil",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Kasa",
+                "name": "Kasa",
+                "code": "Kasa",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "6dada525-1135-45d2-b87d-889312634408",
+                        "name": "Detay",
+                        "code": "Kasa",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "6dada525-1135-45d2-b87d-889312634408",
+                            "applicationName": "Muhasebe",
+                            "code": "Kasa",
+                            "name": "Detay",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "dd056989-cb8f-426b-8614-408f2055742c",
+                        "name": "Ekle",
+                        "code": "Kasa",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "dd056989-cb8f-426b-8614-408f2055742c",
+                            "applicationName": "Muhasebe",
+                            "code": "Kasa",
+                            "name": "Ekle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "5EA9D5D7-8861-4A89-A88A-02332C0AEDA9",
+                        "name": "Görüntüle",
+                        "code": "Kasa",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "5EA9D5D7-8861-4A89-A88A-02332C0AEDA9",
+                            "applicationName": "Muhasebe",
+                            "code": "Kasa",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "ef395517-feab-43fa-8ca3-e98d8f499f77",
+                        "name": "Güncelle",
+                        "code": "Kasa",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "ef395517-feab-43fa-8ca3-e98d8f499f77",
+                            "applicationName": "Muhasebe",
+                            "code": "Kasa",
+                            "name": "Güncelle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "7454d374-7be7-441b-853e-43cc9090dcc8",
+                        "name": "Sil",
+                        "code": "Kasa",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "7454d374-7be7-441b-853e-43cc9090dcc8",
+                            "applicationName": "Muhasebe",
+                            "code": "Kasa",
+                            "name": "Sil",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Senet",
+                "name": "Senet",
+                "code": "Senet",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "6ef08017-a193-4b89-850d-b7af2f398d49",
+                        "name": "Detay",
+                        "code": "Senet",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "6ef08017-a193-4b89-850d-b7af2f398d49",
+                            "applicationName": "Muhasebe",
+                            "code": "Senet",
+                            "name": "Detay",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "b05217f3-765b-4760-847d-baf4ded04514",
+                        "name": "Ekle",
+                        "code": "Senet",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "b05217f3-765b-4760-847d-baf4ded04514",
+                            "applicationName": "Muhasebe",
+                            "code": "Senet",
+                            "name": "Ekle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "a69e9205-6df5-4d5d-bcbf-33ece79359be",
+                        "name": "Görüntüle",
+                        "code": "Senet",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "a69e9205-6df5-4d5d-bcbf-33ece79359be",
+                            "applicationName": "Muhasebe",
+                            "code": "Senet",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "e263e43f-9ff5-440a-b452-dc96e8012678",
+                        "name": "Güncelle",
+                        "code": "Senet",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "e263e43f-9ff5-440a-b452-dc96e8012678",
+                            "applicationName": "Muhasebe",
+                            "code": "Senet",
+                            "name": "Güncelle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "8092cc59-6944-4f05-9cff-a5224dbf8faa",
+                        "name": "Sil",
+                        "code": "Senet",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "8092cc59-6944-4f05-9cff-a5224dbf8faa",
+                            "applicationName": "Muhasebe",
+                            "code": "Senet",
+                            "name": "Sil",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Çek",
+                "name": "Çek",
+                "code": "Çek",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "a063d634-93f2-4d8f-8ceb-d5d16ea3217c",
+                        "name": "Detay",
+                        "code": "Çek",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "a063d634-93f2-4d8f-8ceb-d5d16ea3217c",
+                            "applicationName": "Muhasebe",
+                            "code": "Çek",
+                            "name": "Detay",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "ad2e34ea-d737-4042-90ce-076cd5809964",
+                        "name": "Ekle",
+                        "code": "Çek",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "ad2e34ea-d737-4042-90ce-076cd5809964",
+                            "applicationName": "Muhasebe",
+                            "code": "Çek",
+                            "name": "Ekle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "dea83311-0145-4a38-8ada-dab96bea6ebe",
+                        "name": "Görüntüle",
+                        "code": "Çek",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "dea83311-0145-4a38-8ada-dab96bea6ebe",
+                            "applicationName": "Muhasebe",
+                            "code": "Çek",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "02b11ede-1c81-4fa7-8357-55057003e764",
+                        "name": "Güncelle",
+                        "code": "Çek",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "02b11ede-1c81-4fa7-8357-55057003e764",
+                            "applicationName": "Muhasebe",
+                            "code": "Çek",
+                            "name": "Güncelle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "ea72ada1-e277-42c6-ac08-74c0e69766b5",
+                        "name": "Sil",
+                        "code": "Çek",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "ea72ada1-e277-42c6-ac08-74c0e69766b5",
+                            "applicationName": "Muhasebe",
+                            "code": "Çek",
+                            "name": "Sil",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Depolar",
+                "name": "Depolar",
+                "code": "Depolar",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "ac3acf58-a662-4c9c-9496-d5ecb4327931",
+                        "name": "Detay",
+                        "code": "Depolar",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "ac3acf58-a662-4c9c-9496-d5ecb4327931",
+                            "applicationName": "Muhasebe",
+                            "code": "Depolar",
+                            "name": "Detay",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "36fe3d98-bcce-48f8-8648-6d864fa6e0c5",
+                        "name": "Ekle",
+                        "code": "Depolar",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "36fe3d98-bcce-48f8-8648-6d864fa6e0c5",
+                            "applicationName": "Muhasebe",
+                            "code": "Depolar",
+                            "name": "Ekle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "6c403202-3978-438a-9229-83713e63090b",
+                        "name": "Görüntüle",
+                        "code": "Depolar",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "6c403202-3978-438a-9229-83713e63090b",
+                            "applicationName": "Muhasebe",
+                            "code": "Depolar",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "7c42ae4c-d797-45a0-92a4-08c0a4384700",
+                        "name": "Güncelle",
+                        "code": "Depolar",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "7c42ae4c-d797-45a0-92a4-08c0a4384700",
+                            "applicationName": "Muhasebe",
+                            "code": "Depolar",
+                            "name": "Güncelle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "0822acba-336b-4c5b-9efc-7288fa15ba4c",
+                        "name": "Sil",
+                        "code": "Depolar",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "0822acba-336b-4c5b-9efc-7288fa15ba4c",
+                            "applicationName": "Muhasebe",
+                            "code": "Depolar",
+                            "name": "Sil",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Stok Kategorileri",
+                "name": "Stok Kategorileri",
+                "code": "Stok Kategorileri",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "ca5289eb-8512-4c25-a7e0-ba138a47dc5d",
+                        "name": "Detay",
+                        "code": "Stok Kategorileri",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "ca5289eb-8512-4c25-a7e0-ba138a47dc5d",
+                            "applicationName": "Muhasebe",
+                            "code": "Stok Kategorileri",
+                            "name": "Detay",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "11d6c54a-02da-47c8-bc94-733d2fe9f574",
+                        "name": "Ekle",
+                        "code": "Stok Kategorileri",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "11d6c54a-02da-47c8-bc94-733d2fe9f574",
+                            "applicationName": "Muhasebe",
+                            "code": "Stok Kategorileri",
+                            "name": "Ekle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "12de241a-128d-4630-9dfb-f3d40cff2455",
+                        "name": "Görüntüle",
+                        "code": "Stok Kategorileri",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "12de241a-128d-4630-9dfb-f3d40cff2455",
+                            "applicationName": "Muhasebe",
+                            "code": "Stok Kategorileri",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "071ce9f0-371c-4ba4-8d44-feab21ae7fa5",
+                        "name": "Güncelle",
+                        "code": "Stok Kategorileri",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "071ce9f0-371c-4ba4-8d44-feab21ae7fa5",
+                            "applicationName": "Muhasebe",
+                            "code": "Stok Kategorileri",
+                            "name": "Güncelle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "35d654a6-2ad8-43a3-95e6-3ef303b78bb9",
+                        "name": "Sil",
+                        "code": "Stok Kategorileri",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "35d654a6-2ad8-43a3-95e6-3ef303b78bb9",
+                            "applicationName": "Muhasebe",
+                            "code": "Stok Kategorileri",
+                            "name": "Sil",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Cari Tipler",
+                "name": "Cari Tipler",
+                "code": "Cari Tipler",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "e14c17ab-5f75-4d5a-94b7-dcbdd97f521d",
+                        "name": "Detay",
+                        "code": "Cari Tipler",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "e14c17ab-5f75-4d5a-94b7-dcbdd97f521d",
+                            "applicationName": "Muhasebe",
+                            "code": "Cari Tipler",
+                            "name": "Detay",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "7036e6c5-49e7-44f7-8e89-25f9b2bed5f3",
+                        "name": "Ekle",
+                        "code": "Cari Tipler",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "7036e6c5-49e7-44f7-8e89-25f9b2bed5f3",
+                            "applicationName": "Muhasebe",
+                            "code": "Cari Tipler",
+                            "name": "Ekle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "6c109253-8571-4ae1-a801-1e12d6a0d8d7",
+                        "name": "Görüntüle",
+                        "code": "Cari Tipler",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "6c109253-8571-4ae1-a801-1e12d6a0d8d7",
+                            "applicationName": "Muhasebe",
+                            "code": "Cari Tipler",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "d1ed0d8c-ee21-4277-9947-a996b96f3fd7",
+                        "name": "Güncelle",
+                        "code": "Cari Tipler",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "d1ed0d8c-ee21-4277-9947-a996b96f3fd7",
+                            "applicationName": "Muhasebe",
+                            "code": "Cari Tipler",
+                            "name": "Güncelle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "e422008e-c622-4915-a34f-417e393ced15",
+                        "name": "Sil",
+                        "code": "Cari Tipler",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "e422008e-c622-4915-a34f-417e393ced15",
+                            "applicationName": "Muhasebe",
+                            "code": "Cari Tipler",
+                            "name": "Sil",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Stoklar",
+                "name": "Stoklar",
+                "code": "Stoklar",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "ef308907-cd84-436f-a98b-a063183d18b7",
+                        "name": "Detay",
+                        "code": "Stoklar",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "ef308907-cd84-436f-a98b-a063183d18b7",
+                            "applicationName": "Muhasebe",
+                            "code": "Stoklar",
+                            "name": "Detay",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "8364f451-e6e1-4a1d-9937-21e010267266",
+                        "name": "Ekle",
+                        "code": "Stoklar",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "8364f451-e6e1-4a1d-9937-21e010267266",
+                            "applicationName": "Muhasebe",
+                            "code": "Stoklar",
+                            "name": "Ekle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "4dc3adf6-b559-432e-a5a2-1a485dbc3afc",
+                        "name": "Görüntüle",
+                        "code": "Stoklar",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "4dc3adf6-b559-432e-a5a2-1a485dbc3afc",
+                            "applicationName": "Muhasebe",
+                            "code": "Stoklar",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "daf94166-aafe-4cfa-adba-fda605ec466c",
+                        "name": "Güncelle",
+                        "code": "Stoklar",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "daf94166-aafe-4cfa-adba-fda605ec466c",
+                            "applicationName": "Muhasebe",
+                            "code": "Stoklar",
+                            "name": "Güncelle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "44e619ab-4c7d-4706-be15-3b135cee6365",
+                        "name": "Sil",
+                        "code": "Stoklar",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "44e619ab-4c7d-4706-be15-3b135cee6365",
+                            "applicationName": "Muhasebe",
+                            "code": "Stoklar",
+                            "name": "Sil",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Faturalar",
+                "name": "Faturalar",
+                "code": "Faturalar",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "f11a247a-f169-4558-942f-3d4042a8c0e2",
+                        "name": "Detay",
+                        "code": "Faturalar",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "f11a247a-f169-4558-942f-3d4042a8c0e2",
+                            "applicationName": "Muhasebe",
+                            "code": "Faturalar",
+                            "name": "Detay",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "b3b38e3b-723a-4121-8dc9-2c824caa7565",
+                        "name": "Ekle",
+                        "code": "Faturalar",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "b3b38e3b-723a-4121-8dc9-2c824caa7565",
+                            "applicationName": "Muhasebe",
+                            "code": "Faturalar",
+                            "name": "Ekle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "2e4109de-f03d-4a03-82db-284b4f7fce48",
+                        "name": "GIB'e Gönder",
+                        "code": "Faturalar",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "2e4109de-f03d-4a03-82db-284b4f7fce48",
+                            "applicationName": "Muhasebe",
+                            "code": "Faturalar",
+                            "name": "GIB'e Gönder",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "620d011a-feb9-4ac9-9dad-bb6d773bd292",
+                        "name": "Görüntüle",
+                        "code": "Faturalar",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "620d011a-feb9-4ac9-9dad-bb6d773bd292",
+                            "applicationName": "Muhasebe",
+                            "code": "Faturalar",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "8e7a603d-ec07-4243-a1cf-8259aaed5a01",
+                        "name": "Güncelle",
+                        "code": "Faturalar",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "8e7a603d-ec07-4243-a1cf-8259aaed5a01",
+                            "applicationName": "Muhasebe",
+                            "code": "Faturalar",
+                            "name": "Güncelle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "1fa5ec1c-4aee-4290-a42a-5a5e469585bb",
+                        "name": "Sil",
+                        "code": "Faturalar",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "1fa5ec1c-4aee-4290-a42a-5a5e469585bb",
+                            "applicationName": "Muhasebe",
+                            "code": "Faturalar",
+                            "name": "Sil",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Kasa Devir",
+                "name": "Kasa Devir",
+                "code": "Kasa Devir",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "f6a01311-8ee7-4863-beb6-30cb35ab25ce",
+                        "name": "Ekle",
+                        "code": "Kasa Devir",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "f6a01311-8ee7-4863-beb6-30cb35ab25ce",
+                            "applicationName": "Muhasebe",
+                            "code": "Kasa Devir",
+                            "name": "Ekle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "e44145c7-2b7d-4537-b5fd-e0932492c00b",
+                        "name": "Görüntüle",
+                        "code": "Kasa Devir",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "e44145c7-2b7d-4537-b5fd-e0932492c00b",
+                            "applicationName": "Muhasebe",
+                            "code": "Kasa Devir",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "6eaadc8e-e34a-468e-b7cc-7e42f5afe50f",
+                        "name": "Güncelle",
+                        "code": "Kasa Devir",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "6eaadc8e-e34a-468e-b7cc-7e42f5afe50f",
+                            "applicationName": "Muhasebe",
+                            "code": "Kasa Devir",
+                            "name": "Güncelle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "250c5c6a-8b51-4b40-b559-260e2514ebcc",
+                        "name": "Sil",
+                        "code": "Kasa Devir",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "250c5c6a-8b51-4b40-b559-260e2514ebcc",
+                            "applicationName": "Muhasebe",
+                            "code": "Kasa Devir",
+                            "name": "Sil",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Banka Devir",
+                "name": "Banka Devir",
+                "code": "Banka Devir",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "48a02b7f-ca1a-4e5c-b74e-d0cd8a7149e1",
+                        "name": "Ekle",
+                        "code": "Banka Devir",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "48a02b7f-ca1a-4e5c-b74e-d0cd8a7149e1",
+                            "applicationName": "Muhasebe",
+                            "code": "Banka Devir",
+                            "name": "Ekle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "e163936f-fbac-41a9-9ee3-7f34a062bdda",
+                        "name": "Görüntüle",
+                        "code": "Banka Devir",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "e163936f-fbac-41a9-9ee3-7f34a062bdda",
+                            "applicationName": "Muhasebe",
+                            "code": "Banka Devir",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "be39cb34-0835-450b-b35d-75ed26ad40bd",
+                        "name": "Güncelle",
+                        "code": "Banka Devir",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "be39cb34-0835-450b-b35d-75ed26ad40bd",
+                            "applicationName": "Muhasebe",
+                            "code": "Banka Devir",
+                            "name": "Güncelle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "29c4df17-a856-46d6-aee0-79bc1a7add6f",
+                        "name": "Sil",
+                        "code": "Banka Devir",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "29c4df17-a856-46d6-aee0-79bc1a7add6f",
+                            "applicationName": "Muhasebe",
+                            "code": "Banka Devir",
+                            "name": "Sil",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Stok Devir",
+                "name": "Stok Devir",
+                "code": "Stok Devir",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "0399c73e-1616-4301-aca8-1e708eafc532",
+                        "name": "Ekle",
+                        "code": "Stok Devir",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "0399c73e-1616-4301-aca8-1e708eafc532",
+                            "applicationName": "Muhasebe",
+                            "code": "Stok Devir",
+                            "name": "Ekle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "c2915399-dfb5-4e8d-adaa-e4660611e966",
+                        "name": "Görüntüle",
+                        "code": "Stok Devir",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "c2915399-dfb5-4e8d-adaa-e4660611e966",
+                            "applicationName": "Muhasebe",
+                            "code": "Stok Devir",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "3b0bb183-906d-44cf-8e65-66e6a9d843a3",
+                        "name": "Güncelle",
+                        "code": "Stok Devir",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "3b0bb183-906d-44cf-8e65-66e6a9d843a3",
+                            "applicationName": "Muhasebe",
+                            "code": "Stok Devir",
+                            "name": "Güncelle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "1e4d5df1-f9ff-4445-84b3-aacad57e75cf",
+                        "name": "Sil",
+                        "code": "Stok Devir",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "1e4d5df1-f9ff-4445-84b3-aacad57e75cf",
+                            "applicationName": "Muhasebe",
+                            "code": "Stok Devir",
+                            "name": "Sil",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Cari Devir",
+                "name": "Cari Devir",
+                "code": "Cari Devir",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "0b2c466c-37b3-4e1d-810e-f895c9b9af8f",
+                        "name": "Ekle",
+                        "code": "Cari Devir",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "0b2c466c-37b3-4e1d-810e-f895c9b9af8f",
+                            "applicationName": "Muhasebe",
+                            "code": "Cari Devir",
+                            "name": "Ekle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "889dde6e-0806-441b-8334-a365977fa679",
+                        "name": "Görüntüle",
+                        "code": "Cari Devir",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "889dde6e-0806-441b-8334-a365977fa679",
+                            "applicationName": "Muhasebe",
+                            "code": "Cari Devir",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "13761067-6bed-410c-9636-507e08e832e6",
+                        "name": "Güncelle",
+                        "code": "Cari Devir",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "13761067-6bed-410c-9636-507e08e832e6",
+                            "applicationName": "Muhasebe",
+                            "code": "Cari Devir",
+                            "name": "Güncelle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    },
+                    {
+                        "id": "4128a553-fd99-4972-81ff-a3780b21e5c8",
+                        "name": "Sil",
+                        "code": "Cari Devir",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "4128a553-fd99-4972-81ff-a3780b21e5c8",
+                            "applicationName": "Muhasebe",
+                            "code": "Cari Devir",
+                            "name": "Sil",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Finans",
+                "name": "Finans",
+                "code": "Finans",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "30f2f99a-90c9-4222-a76a-8ee926424de2",
+                        "name": "Görüntüle",
+                        "code": "Finans",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "30f2f99a-90c9-4222-a76a-8ee926424de2",
+                            "applicationName": "Muhasebe",
+                            "code": "Finans",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "İşlemler",
+                "name": "İşlemler",
+                "code": "İşlemler",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "1cb70f54-cb93-4e0e-aeb3-ce1f150c6c49",
+                        "name": "Görüntüle",
+                        "code": "İşlemler",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "1cb70f54-cb93-4e0e-aeb3-ce1f150c6c49",
+                            "applicationName": "Muhasebe",
+                            "code": "İşlemler",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Devirler",
+                "name": "Devirler",
+                "code": "Devirler",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "62838390-fed0-442b-aa3c-11688a0b6d3f",
+                        "name": "Görüntüle",
+                        "code": "Devirler",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "62838390-fed0-442b-aa3c-11688a0b6d3f",
+                            "applicationName": "Muhasebe",
+                            "code": "Devirler",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Ana Sayfa",
+                "name": "Ana Sayfa",
+                "code": "Ana Sayfa",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "672a9b31-4ac1-4a9e-ba32-806849df8b3e",
+                        "name": "Görüntüle",
+                        "code": "Ana Sayfa",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "672a9b31-4ac1-4a9e-ba32-806849df8b3e",
+                            "applicationName": "Muhasebe",
+                            "code": "Ana Sayfa",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Lobi",
+        "name": "Lobi",
+        "code": "",
+        "isMain": true,
+        "indeterminate": false,
+        "expanded": true,
+        "selected": true,
+        "children": [
+            {
+                "id": "Toplam Gelir",
+                "name": "Toplam Gelir",
+                "code": "Toplam Gelir",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "2213d1c0-3ec1-4712-9572-c1a1abd2691a",
+                        "name": "Görüntüle",
+                        "code": "Toplam Gelir",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "2213d1c0-3ec1-4712-9572-c1a1abd2691a",
+                            "applicationName": "Lobi",
+                            "code": "Toplam Gelir",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Aktif Müşteriler",
+                "name": "Aktif Müşteriler",
+                "code": "Aktif Müşteriler",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "100b92cd-a2e2-41a1-a887-c38268267e79",
+                        "name": "Görüntüle",
+                        "code": "Aktif Müşteriler",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "100b92cd-a2e2-41a1-a887-c38268267e79",
+                            "applicationName": "Lobi",
+                            "code": "Aktif Müşteriler",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Toplam Faturalar",
+                "name": "Toplam Faturalar",
+                "code": "Toplam Faturalar",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "47c7ae49-e572-4fa0-abff-381a2f015125",
+                        "name": "Görüntüle",
+                        "code": "Toplam Faturalar",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "47c7ae49-e572-4fa0-abff-381a2f015125",
+                            "applicationName": "Lobi",
+                            "code": "Toplam Faturalar",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "e-Belgeler",
+                "name": "e-Belgeler",
+                "code": "e-Belgeler",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "aa474905-eeaa-4999-a8a9-71f0a3ba5d5d",
+                        "name": "Görüntüle",
+                        "code": "e-Belgeler",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "aa474905-eeaa-4999-a8a9-71f0a3ba5d5d",
+                            "applicationName": "Lobi",
+                            "code": "e-Belgeler",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Muhasebe",
+                "name": "Muhasebe",
+                "code": "Muhasebe",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "f93e523d-fa30-4b01-a7f1-9b98b78959ec",
+                        "name": "Görüntüle",
+                        "code": "Muhasebe",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "f93e523d-fa30-4b01-a7f1-9b98b78959ec",
+                            "applicationName": "Lobi",
+                            "code": "Muhasebe",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Toplam Gider",
+                "name": "Toplam Gider",
+                "code": "Toplam Gider",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "eccfe52e-d7c4-48a6-9183-0d578168650a",
+                        "name": "Görüntüle",
+                        "code": "Toplam Gider",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "eccfe52e-d7c4-48a6-9183-0d578168650a",
+                            "applicationName": "Lobi",
+                            "code": "Toplam Gider",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Son İşlemler",
+                "name": "Son İşlemler",
+                "code": "Son İşlemler",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "eeff4f9c-0241-478b-8483-f26fd6cdfb42",
+                        "name": "Görüntüle",
+                        "code": "Son İşlemler",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "eeff4f9c-0241-478b-8483-f26fd6cdfb42",
+                            "applicationName": "Lobi",
+                            "code": "Son İşlemler",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Yönetim",
+                "name": "Yönetim",
+                "code": "Yönetim",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "e9224f1e-0d29-4fa4-bace-eb109d71f0f1",
+                        "name": "Görüntüle",
+                        "code": "Yönetim",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "e9224f1e-0d29-4fa4-bace-eb109d71f0f1",
+                            "applicationName": "Lobi",
+                            "code": "Yönetim",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Raporlar",
+                "name": "Raporlar",
+                "code": "Raporlar",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "e9866971-ba0d-4ff4-8188-41cd217d071e",
+                        "name": "Görüntüle",
+                        "code": "Raporlar",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "e9866971-ba0d-4ff4-8188-41cd217d071e",
+                            "applicationName": "Lobi",
+                            "code": "Raporlar",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "e-Belgeler",
+        "name": "e-Belgeler",
+        "code": "",
+        "isMain": true,
+        "indeterminate": false,
+        "expanded": true,
+        "selected": true,
+        "children": [
+            {
+                "id": "e-Fatura",
+                "name": "e-Fatura",
+                "code": "e-Fatura",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "1a750dbd-d196-4bee-8a03-b94613f3031b",
+                        "name": "Görüntüle",
+                        "code": "e-Fatura",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "1a750dbd-d196-4bee-8a03-b94613f3031b",
+                            "applicationName": "e-Belgeler",
+                            "code": "e-Fatura",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "e-Arşiv",
+                "name": "e-Arşiv",
+                "code": "e-Arşiv",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "48c206dd-6629-41e5-84bd-fd40607c0f67",
+                        "name": "Görüntüle",
+                        "code": "e-Arşiv",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "48c206dd-6629-41e5-84bd-fd40607c0f67",
+                            "applicationName": "e-Belgeler",
+                            "code": "e-Arşiv",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "e-İrsaliye",
+                "name": "e-İrsaliye",
+                "code": "e-İrsaliye",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "6db1b843-d991-43da-a63d-44a770276364",
+                        "name": "Görüntüle",
+                        "code": "e-İrsaliye",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "6db1b843-d991-43da-a63d-44a770276364",
+                            "applicationName": "e-Belgeler",
+                            "code": "e-İrsaliye",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Yönetim",
+        "name": "Yönetim",
+        "code": "",
+        "isMain": true,
+        "indeterminate": false,
+        "expanded": true,
+        "selected": true,
+        "children": [
+            {
+                "id": "Döviz Kurları",
+                "name": "Döviz Kurları",
+                "code": "Döviz Kurları",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "4e39be6f-4550-458f-980e-6aedba736873",
+                        "name": "Görüntüle",
+                        "code": "Döviz Kurları",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "4e39be6f-4550-458f-980e-6aedba736873",
+                            "applicationName": "Yönetim",
+                            "code": "Döviz Kurları",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "Ana Sayfa",
+                "name": "Ana Sayfa",
+                "code": "Ana Sayfa",
+                "isMain": true,
+                "indeterminate": false,
+                "expanded": true,
+                "selected": true,
+                "children": [
+                    {
+                        "id": "c58135fd-cd3c-4427-9e26-ed721792ce6a",
+                        "name": "Görüntüle",
+                        "code": "Ana Sayfa",
+                        "description": "",
+                        "isMain": false,
+                        "indeterminate": false,
+                        "expanded": true,
+                        "selected": true,
+                        "originalData": {
+                            "id": "c58135fd-cd3c-4427-9e26-ed721792ce6a",
+                            "applicationName": "Yönetim",
+                            "code": "Ana Sayfa",
+                            "name": "Görüntüle",
+                            "description": "",
+                            "isSelected": true
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
