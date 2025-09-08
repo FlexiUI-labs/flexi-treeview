@@ -94,13 +94,13 @@
             </div>
             <div class="flexi-treeview-node-actions">
               @if(showDetailButton() && !node.isMain){
-                <flexi-button btnIcon="zoom_in" [btnSize]="btnSize()" btnColor="primary" flexiTooltip="left" [title]="detailText()" [routerLink]="detailRouterLink() + '/' + node.id" />
+                  <flexi-button [btnIcon]="detailIcon()" [btnSize]="btnSize()" btnColor="primary" flexiTooltip="left" [title]="detailText()" [routerLink]="detailRouterLink() + '/' + node.id" />
               }
               @if(showEditButton() && !node.isMain){
-                <flexi-button btnIcon="edit" [btnSize]="btnSize()" btnColor="warning" flexiTooltip="left" [title]="updateText()" (click)="onEditClick(node, $event)" />
+                  <flexi-button [btnIcon]="editIcon()" [btnSize]="btnSize()" btnColor="warning" flexiTooltip="left" [title]="updateText()" (click)="onEditClick(node, $event)" />
               }
               @if(showDeleteButton() && !node.isMain){
-                <flexi-button btnIcon="delete" [btnSize]="btnSize()" btnColor="danger" flexiTooltip="left" [title]="deleteText()" (click)="onDeleteClick(node, $event)" />
+                  <flexi-button [btnIcon]="deleteIcon()" [btnSize]="btnSize()" btnColor="danger" flexiTooltip="left" [title]="deleteText()" (click)="onDeleteClick(node, $event)" />
               }
             </div>
           </div>
