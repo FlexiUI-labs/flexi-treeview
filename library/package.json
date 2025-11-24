@@ -1,6 +1,6 @@
 {
   "name": "flexi-treeview",
-  "version": "20.0.1",
+  "version": "21.0.0",
   "description": "A lightweight, customizable Angular component for displaying hierarchical data in a tree structure.",
   "license": "MIT",
   "keywords": [
@@ -9,10 +9,10 @@
     "filtering"
   ],
   "peerDependencies": {
-    "@angular/common": "^20.0.0",
-    "@angular/core": "^20.0.0",
-    "flexi-button": "^20.0.0",
-    "flexi-tooltip": "^20.0.0"
+    "@angular/common": "^21.0.0",
+    "@angular/core": "^21.0.0",
+    "flexi-button": "^21.0.0",
+    "flexi-tooltip": "^21.0.0"
   },
   "dependencies": {
     "tslib": "^2.8.1"
