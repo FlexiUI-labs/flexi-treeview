@@ -36,6 +36,11 @@ export class FlexiTreeviewComponent implements AfterViewInit, OnChanges {
   readonly detailRouterLink = input<string>("");
   readonly language = input<"en" | "tr">("en");
 
+  // Icon name inputs for customization
+  readonly deleteIcon = input<string>('delete');
+  readonly editIcon = input<string>('edit');
+  readonly detailIcon = input<string>('zoom_in');
+
   readonly onSelected = output<FlexiTreeNode[]>();
   readonly onEdit = output<FlexiTreeNode>();
   readonly onDelete = output<FlexiTreeNode>();
